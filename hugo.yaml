@@ -1,0 +1,33 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: "Welcome to my blog. I am a passionate developer and I love to write about new technologies and programming languages. I hope you will find my blog interesting and helpful."
+  socialIcons:
+    - name: Github
+      url: "https://github.com/abhijeet1312"
+  cover:
+    linkFullImages: true
+  ShowBreadCrumbs: true
+  showReadingTime: true
+  showShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: "categories"
+      name: "Categories"
+      url: "/categories/"
+      weight: 10
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 20
+    - identifier: "archives"
+      name: "Archives"
+      url: "/archives/"
+      weight: 30
